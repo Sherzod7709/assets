@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.site-head {
+    display: flex;
+    height: 600px;
+    
+}
+.site-box1 {
+    height: 600px;
+    width: 500px;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+}
+.boxx {
+    margin: 0 auto;
+}
+.site-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.site-box1-tittle {
+    text-shadow: 0 0 2px white;
+    color: #fff;
+    font-size: 32px;
+}
+.site-box1-text {
+    margin: 25px 0;
+    text-shadow: 0 0 5px white;
+    color: #fff;
+    font-size: 16px;
+}
+.site-box1-linkbox {
+    width: 150px;
+    height: 40px;
+    z-index: -1;
+    background-color: aquamarine;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.site-box1-link1 {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: rgb(121, 115, 115);
+    text-decoration: none;
+}
+.site-box1-linkicon {
+    height: 30px;
+    width: 30px;
+}
+.contain {
+    margin: 0 30px;
+}
+.site-box2-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin-top: 40px;
+}
+.logo {
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+.site-box2-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow:inset -20px 0 10px 20px  rgb(255, 255, 255);
+}
+.list-item-year {
+    list-style: none;
+    margin-top: 40px;
+}
+.item-link:hover {
+    color: black;
+}
+.item-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+}
+.site-box2-hero {
+    margin: 38px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+.text {
+    font-size: 18px;
+    margin-left: 35px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.day {
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.data {
+    margin-left: 15px;
+}
